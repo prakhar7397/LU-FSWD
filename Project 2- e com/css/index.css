@@ -1,0 +1,500 @@
+/* .............fonts.............. */
+
+/* kaushan script */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* hind */
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ...................reusable css................. */
+
+.container{
+    width: 88%;
+    display: flex;
+}
+
+.title{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 30%;
+    font-family: 'Hind', sans-serif;
+    font-size: 50px;
+    letter-spacing: .05em;
+    color: black;
+}
+
+.container-center, body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.offer-white-text{
+    color: white;
+}
+
+
+.offer-black-text{
+    color: black;
+}
+
+
+
+/* ..............header.............. */
+
+.header{
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+}
+
+.header-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    height: 85px;
+    width: 15%;
+    /* background-color: red; */
+    line-height: 85px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+
+.link{
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    background-color: rgba(0, 0, 0, .2);
+    color: white;
+    font-size: 15px;
+    letter-spacing: .03em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.link:hover{
+    font-size: 16px;
+}
+
+/* .................banner.............. */
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    background-image: url('../media/images/banner.jpg');
+    background-size: cover;
+}
+
+
+.banner-container{
+    justify-content: flex-end;
+}
+
+.banner-details{
+    height: 290px;
+    padding: 25px 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 230px;
+    background-color: rgba(0, 0, 0, .3);
+    transition: .5s;
+    /* background-color: yellow; */
+}
+
+.banner-details:hover{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.banner-details:hover .banner-heading{
+    transform: scale(1.02);
+}
+
+
+.banner-heading{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    font-family:  'Kaushan Script', cursive;
+    letter-spacing: .05em;
+    color: white;
+    transition: .5s;
+}
+
+.line-thru{
+    width: 75%;
+    height: .1px;
+    display: inline-block;
+    background-color: white;
+}
+
+.btn{
+    padding: 18px 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 17%;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: .5s;
+    cursor: pointer;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: rgba(0,0,0,.4);
+    transform: scale(1.02);
+}
+
+
+/* ....................category................... */
+
+.category{
+    padding: 80px 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.category-container{
+    /* background-color: blue; */
+    margin-top: 27px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cat-block{
+    width: 48.5%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-line-thru{
+    height: 760px;
+    width: 1px;
+    background-color: #d6d6d6;
+}
+
+.cat-head{
+    width: 20%;
+    text-align: center;
+    font-size: 33px;
+    color: black;
+    font-family: 'Hind', sans-serif;
+    /* text-decoration: underline; */
+}
+
+.cat-cards{
+    /* padding:13px 0px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.cat-card{
+    width: 48%;
+    height: 340px;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+}
+
+
+.product-info{
+    height: 50px;
+    width: 80%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+}
+
+.cat-card:hover .product-info{
+    height: 340px;
+    width: 100%;
+}
+
+.cat-card:hover .prod-name{
+    background-color: transparent;
+}
+
+.prod-name{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: .02em;
+    transition: .5s;
+}
+
+.prod-types{
+    height: 190px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.prod-type{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: underline;
+}
+
+.prod-type:hover{
+    font-size: 21px;
+}
+
+.prod-btn{
+    padding: 13px 22px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0,0,0,.6);
+    border: 1px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.prod-btn:hover{
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.cat-card:nth-child(1){
+    background-image: url('https://images.pexels.com/photos/5145180/pexels-photo-5145180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+    background-position-y: -45px;
+}
+
+.cat-card:nth-child(2){
+    background-image: url('https://www.styledbysally.com.au/wp-content/uploads/2018/01/Classic-Blue-Men-Jeans-Pant-Cotton-Slim-Fit-Men-s-Denim-Pants-Stretch-Fashion-Mens-Clothes.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.cat-card:nth-child(3){
+    margin-top: 28px;
+    background-image: url('https://images.pexels.com/photos/10369247/pexels-photo-10369247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+    background-position-y: -85px;
+}
+
+.cat-card:nth-child(4){
+    margin-top: 28px;
+    background-image: url('https://images.pexels.com/photos/8130587/pexels-photo-8130587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+.women-card:nth-child(1){
+    background-image: url('https://images.unsplash.com/photo-1578298245398-7130884db6f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2lybCUyMG1vZGVsaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80');  
+}
+
+.women-card:nth-child(2){
+    background-image: url('https://assets.ajio.com/medias/sys_master/root/20210415/sfxP/60785516aeb269a9e39263b6/-473Wx593H-441116335-black-MODEL.jpg');
+    background-position-y: -9px;
+}
+
+.women-card:nth-child(3){
+    background-image: url('https://img3.junaroad.com/uiproducts/16949409/pri_175_p-1582190397.jpg');
+    background-position-y: -5px;
+}
+
+
+.women-card:nth-child(4){
+    background-image: url('https://images.pexels.com/photos/313705/pexels-photo-313705.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position-y: -90px;
+}
+
+
+/* .................line-thru............... */
+
+.line-thru{
+    height: 1px;
+    width: 88%;
+    background-color: #d6d6d6;
+}
+
+/* .................offers............... */
+
+.offers{
+    padding: 80px 0px;
+    width: 100%;
+    /* background-color: red; */
+    /* position: relative; */
+}
+
+.offer-container{
+    /* background-color: blue; */
+    flex-direction: column;
+    margin-top: 27px;
+    
+}
+
+.offer-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute; */
+    /* background-color: yellow; */
+}
+
+.card-visible{
+    padding: 15px;
+    box-sizing: border-box;
+    height: 600px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visible-offer{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 95px;
+    color: white;
+}
+
+.card-invisible{
+    padding: 0px 15px;
+    box-sizing: border-box;
+    height: 600px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-invisible{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.offer-img{
+    width: 100%;
+    height: 65%;
+    cursor: pointer;
+    /* background-color: white; */
+}
+
+.offer-img>img{
+    width: 100%;
+    height: 100%;
+}
+
+.offer-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.offer-price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.old-price{
+    font-size: 22px;
+    text-decoration: line-through;
+}
+
+.offer-btn{
+    padding: 9px 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:  transparent;
+    transition: .5s;
+}
+
+.to-white:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.to-black:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
