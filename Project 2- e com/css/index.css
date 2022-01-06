@@ -329,14 +329,14 @@
 }
 
 .cat-card:nth-child(1){
-    background-image: url('https://images.pexels.com/photos/5145180/pexels-photo-5145180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('../media/images/men-cat-1.jpeg');
     background-position: center;
     background-size: cover;
     background-position-y: -45px;
 }
 
 .cat-card:nth-child(2){
-    background-image: url('https://www.styledbysally.com.au/wp-content/uploads/2018/01/Classic-Blue-Men-Jeans-Pant-Cotton-Slim-Fit-Men-s-Denim-Pants-Stretch-Fashion-Mens-Clothes.jpg');
+    background-image: url('../media/images/men-cat-2.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -344,7 +344,7 @@
 
 .cat-card:nth-child(3){
     margin-top: 28px;
-    background-image: url('https://images.pexels.com/photos/10369247/pexels-photo-10369247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('../media/images/men-cat-3.jpeg');
     background-position: center;
     background-size: cover;
     background-position-y: -85px;
@@ -352,29 +352,29 @@
 
 .cat-card:nth-child(4){
     margin-top: 28px;
-    background-image: url('https://images.pexels.com/photos/8130587/pexels-photo-8130587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('../media/images/men-cat-4.jpeg');
     background-position: center;
     background-size: cover;
     background-position-y: -100px;
 }
 
 .women-card:nth-child(1){
-    background-image: url('https://images.unsplash.com/photo-1578298245398-7130884db6f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2lybCUyMG1vZGVsaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80');  
+    background-image: url('../media/images/women-cat-1.jpg');  
 }
 
 .women-card:nth-child(2){
-    background-image: url('https://assets.ajio.com/medias/sys_master/root/20210415/sfxP/60785516aeb269a9e39263b6/-473Wx593H-441116335-black-MODEL.jpg');
+    background-image: url('../media/images/women-cat-2.webp');
     background-position-y: -9px;
 }
 
 .women-card:nth-child(3){
-    background-image: url('https://img3.junaroad.com/uiproducts/16949409/pri_175_p-1582190397.jpg');
+    background-image: url('../media/images/women-cat-3.webp');
     background-position-y: -5px;
 }
 
 
 .women-card:nth-child(4){
-    background-image: url('https://images.pexels.com/photos/313705/pexels-photo-313705.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url('../media/images/women-cat-4.jpeg');
     background-position-y: -90px;
 }
 
